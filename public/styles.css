@@ -2,10 +2,11 @@ body {
     margin: 0;
     font-family: 'Merriweather', serif;
     text-align: center;
+    
 }
 
 .App-header {
-    background-color: rgb(150, 220, 255);
+    background-color: #83cae2;
     margin: 0 0 0 0;
     padding-bottom: 0;
     
@@ -58,7 +59,9 @@ p {
 }
 
 .middle {
-
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f7f1ea;
     text-align: center;
 }
 
@@ -93,6 +96,17 @@ h4 {
 
 }
 
+footer {
+    margin: 0;
+    text-align: center;
+    background-color: #8EC3B0;
+}
+
+footer h1 {
+    margin: 0;
+    
+}
+
 h5 {
     margin: 5px;
     margin-left: 0;
@@ -105,6 +119,15 @@ h5 {
     margin: 5px;
     margin-left: 0;
     font: 1em sans-serif;
+
+}
+.footer-link {
+    padding: 10px;
+  }
+.bottom-container{
+    background-color: #66BFBF;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 

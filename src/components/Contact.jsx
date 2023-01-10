@@ -6,7 +6,7 @@ function Contact(props) {
         <table>
             <tr>
                 <td className="img-td">
-                    <a href={props.link}><img className="platform-icon" src={props.icon} alt="platrorm-icon"></img></a>
+                    <a href={props.link} target="_blank"><img className="platform-icon" src={props.icon} alt="platrorm-icon"></img></a>
                 </td>
                 <td>
                     <h4 className="contact-platfom" >{props.platform}</h4>

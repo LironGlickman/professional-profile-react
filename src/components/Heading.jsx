@@ -5,6 +5,7 @@ import email from '../icons/email.png'
 import linkedin from '../icons/linkedin.png'
 import gitlab from '../icons/gitlab.png'
 import profile from '../icons/profile.jpg';
+import github from '../icons/github.png'
 import 'bootstrap/dist/css/bootstrap.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -30,10 +31,11 @@ function Heading() {
                     
                     <Col xxl="2" lg="3" style={{ "padding-right": 0 }} className="d-flex align-items-center justify-content-center">
                         <div className="contact-elements ">
-                            <Contact icon={smartphone} platform="Mobile" info="052-6959414" />
-                            <Contact icon={email} platform="Email" info="7lirong7@gmail.com" />
+                            <Contact icon={smartphone} platform="Mobile" info="052-6959414" link="tel:052-6959414" />
+                            <Contact icon={email} platform="Email" info="7lirong7@gmail.com" link="mailto:7lirong7@gmail.com" />
                             <Contact icon={linkedin} platform="Linkedin" info="Liron Glickman | liron-glickman-7a163614a" link="https://www.linkedin.com/in/liron-glickman-7a163614a/" />
-                            <Contact icon={gitlab} platform="Gitlab" info="LironGlickman" link="https://gitlab.com/LironGlickman" />
+                            <Contact icon={github} platform="GitHub" info="LironGlickman" link="https://github.com/LironGlickman" />
+                            <Contact icon={gitlab} platform="GitLab " info="LironGlickman" link="https://gitlab.com/LironGlickman" />
                         </div></Col>
                         <Col lg="9" xxl="0"> </Col>
                 </Row>

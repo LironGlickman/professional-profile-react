@@ -19,7 +19,6 @@ function App() {
       <div className='middle'>
        <img src={monitor} className="iconmation" alt="icon"></img>  
       <h2>My Skills.</h2>
-       
      <Skill icon={programing} skill="Design & Development" align="left" description="Expert in designing and developing intuitive, user-friendly software applications. Skilled in using a variety of programming languages and frameworks, including JavaScript, TypeScript, NodeJS, React. Proficient in using agile development methodologies to quickly and efficiently deliver high-quality software products. Able to collaborate with cross-functional teams, including designers, developers, and product managers, to bring innovative ideas to life. Experienced in using user testing and user feedback to continuously improve the user experience of software products." />  
      <Skill icon={blockchain} skill="Web 3.0" align="right" description="Expert in using Web3.js to build and interact with decentralized applications (DApps) on the Ethereum blockchain. Skilled in using Web3.js to manage accounts, send transactions, and retrieve data from smart contracts. Proficient in using JavaScript and Web3.js to build client-side applications that can interact with the Ethereum blockchain in a secure and decentralized manner. Able to use Web3.js to build innovative DApps that take advantage of the unique capabilities of the Ethereum platform."/>  
      <Skill icon={backend} skill="Backend" align="left" description="Highly knowledgeable in developing scalable, high-performance back-end systems using JavaScript, Node.js, TypeScript, NestJS, TypeORM, and PostgreSQL. Skilled in using Node.js to build efficient server-side applications that can handle a large volume of requests. Proficient in using TypeScript to write clean, maintainable code that is easy to debug and scale. Experienced in using NestJS to build modular, scalable server-side applications that are easy to test and maintain. Proficient in using TypeORM and PostgreSQL to manage data persistence and ensure data integrity. Able to use these skills to build reliable, high-quality back-end systems that support the needs of modern web applications."/>  
@@ -35,9 +34,9 @@ function App() {
       </div>
       <footer>
       <div className="bottom-container">
-      <a className="footer-link" href="https://www.linkedin.com/in/liron-glickman-7a163614a/" target="_blank">LinkedIn</a>
-      <a className="footer-link" href="https://twitter.com/GlickmanLiron" target="_blank">Twitter</a>
-      <a className="footer-link" href="https://lironglickman.github.io/professional-profile-react/" target="_blank">Website</a>
+      <a className="footer-link" href="https://www.linkedin.com/in/liron-glickman-7a163614a/" rel="noreferrer"  target="_blank">LinkedIn</a>
+      <a className="footer-link" href="https://twitter.com/GlickmanLiron" target="_blank" rel="noreferrer" >Twitter</a>
+      <a className="footer-link" href="https://lironglickman.github.io/professional-profile-react/" target="_blank" rel="noreferrer" >Website</a>
       <a href="../files/Liron Glickman - Resume 2023.pdf" download>CV - Resume.pdf</a>
       <p className="padding-top: 50px">© Liron Glickman</p>
     </div>

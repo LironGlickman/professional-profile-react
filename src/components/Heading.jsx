@@ -29,7 +29,7 @@ function Heading() {
                         </div>
                     </Col>
                     
-                    <Col xxl="2" lg="3" style={{ "padding-right": 0 }} className="d-flex align-items-center justify-content-center">
+                    <Col xxl="2" lg="3" style={{ "padding-right": 0 }} className="d-flex align-items-center justify-content-left">
                         <div className="contact-elements ">
                             <Contact icon={smartphone} platform="Mobile" info="052-6959414" link="tel:052-6959414" />
                             <Contact icon={email} platform="Email" info="7lirong7@gmail.com" link="mailto:7lirong7@gmail.com" />

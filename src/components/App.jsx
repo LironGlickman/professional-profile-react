@@ -37,7 +37,7 @@ function App() {
       <a className="footer-link" href="https://www.linkedin.com/in/liron-glickman-7a163614a/" rel="noreferrer"  target="_blank">LinkedIn</a>
       <a className="footer-link" href="https://twitter.com/GlickmanLiron" target="_blank" rel="noreferrer" >Twitter</a>
       <a className="footer-link" href="https://lironglickman.github.io/professional-profile-react/" target="_blank" rel="noreferrer" >Website</a>
-      <a href="../files/Liron Glickman - Resume 2023.pdf" download>CV - Resume.pdf</a>
+      <a href="../files/Liron_Resume_2023.pdf" download>CV - Resume.pdf</a>
       <p className="padding-top: 50px">© Liron Glickman</p>
     </div>
 

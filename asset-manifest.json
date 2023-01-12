@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.8d6a17ca.css",
-    "main.js": "/static/js/main.c6e20d31.js",
+    "main.js": "/static/js/main.44870068.js",
     "static/media/monitor.gif": "/static/media/monitor.b440726a6218c9012c59.gif",
     "static/media/mortarboard.gif": "/static/media/mortarboard.7fb4ee62b5a6d253e5db.gif",
+    "static/media/Liron_Resume_2023.pdf": "/static/media/Liron_Resume_2023.23b106b6c67a780f5d80.pdf",
     "static/media/profile.jpg": "/static/media/profile.a5f9bb72048905f86430.jpg",
     "static/media/blockchain.png": "/static/media/blockchain.0d20a80a27d52872a951.png",
     "static/media/sce.png": "/static/media/sce.8d5b0e7226ee9c8afe80.png",
@@ -15,10 +16,10 @@
     "static/media/email.png": "/static/media/email.51b08bcbb5af7a861c31.png",
     "index.html": "/index.html",
     "main.8d6a17ca.css.map": "/static/css/main.8d6a17ca.css.map",
-    "main.c6e20d31.js.map": "/static/js/main.c6e20d31.js.map"
+    "main.44870068.js.map": "/static/js/main.44870068.js.map"
   },
   "entrypoints": [
     "static/css/main.8d6a17ca.css",
-    "static/js/main.c6e20d31.js"
+    "static/js/main.44870068.js"
   ]
 }
